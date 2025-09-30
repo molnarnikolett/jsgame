@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <h1>WEB PROG EVOLUTION</h1>
+    <div class="main-container">
+        <div class="left-column">
+            <div class="info-box">
+                <ul>
+                    <li id="playername">Name: </li>
+                    <li id="gamedifficulty">Difficulty: </li>
+                    <li id="time">Time:</li>
+                    <li id="score">Score: 000000</li>
+                </ul>
+                <button type="button" id="draw">DRAW</button>
+            </div>
+            <div class="info-box">
+                <ul>
+                    <li id="ScriptingEvolution">Scripting * 05p = 00</li>
+                    <li id="StylingTechnologies">Styling * 05p = 00</li>
+                    <li id="MarkupLanguages">Markup * 05p = 00</li>
+                    <li id="CLanguageEvolution">Lang Game * 10p = 00</li>
+                    <li id="IDEEvolution">Ide * 10p = 00</li>
+                    <li id="AudioFormats">Audio * 10p = 00</li>
+                    <li id="VideoFormats">Video * 10p = 00</li>
+                    <li id="ImageFormats">Image * 15p = 00</li>
+                    <li id="CMSEvolution">Cms * 15p = 00</li>
+                    <li id="DatabaseEvolution">Db * 15p = 00</li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid-container">
+            <table class="grid"></table>
+            <div id="images"></div>
+        </div>
+        <div class="right-column">
+            <div class="info-box" id="leaderboard">
+                <h2>LEADERBOARD</h2>
+                <h3>HARD</h3>
+                <ul>
+                    <li>Player 1 :000190</li>
+                    <li>John Doe :000110</li>
+                    <li>Chucky :000090</li>
+                    <li>******* :000000</li>
+                    <li>******* :000000</li>
+                </ul>
+                <h3>MEDIUM</h3>
+                <ul>
+                    <li>Player 2 :000190</li>
+                    <li>Jane Doe :000100</li>
+                    <li>XYZ :000050</li>
+                    <li>******* :000000</li>
+                    <li>******* :000000</li>
+                </ul>
+                <h3>EASY</h3>
+                <ul>
+                    <li>Playa :000300</li>
+                    <li>Tarzan :000220</li>
+                    <li>Mobius :000150</li>
+                    <li>******* :000000</li>
+                    <li>******* :000000</li>
+                </ul>
+            </div>
+        </div>
+        <div id="game-over-modal" style="display: none;" class="modal">
+            <div class="modal-content">
+              <h2>Game Over</h2>
+              <p id="final-score"></p>
+            </div>
+          </div>
+    </div>
+    <script src="evolutions.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
